@@ -34,23 +34,37 @@ function App() {
             <span className="event-icon" aria-hidden="true">◷</span>
             <p className="event-label">วันและเวลา</p>
             <h3>วันอาทิตย์ที่ 14 มีนาคม 2570</h3>
-            <p>พิธีเริ่มเวลา 17:30 น.</p>
+            <p>พิธีเริ่มเวลา 07:00 น.</p>
           </div>
           <div className="event-divider" />
           <div className="event-item">
             <span className="event-icon" aria-hidden="true">⌖</span>
             <p className="event-label">สถานที่</p>
-            <h3>หัวไทร</h3>
+            <h3>
+              <a
+                className="location-link"
+                href="https://maps.google.com/?q=หัวไทร"
+                target="_blank"
+                rel="noreferrer"
+              >
+                หัวไทร <span aria-hidden="true">↗</span>
+              </a>
+            </h3>
           </div>
         </div>
-        <a
-          className="text-link"
-          href="https://maps.google.com/?q=หัวไทร"
-          target="_blank"
-          rel="noreferrer"
+        <div
+          className="wedding-theme"
+          role="img"
+          aria-label="ธีมงาน: สีเขียวเสจ สีเขียวมะกอก สีเบจ และสีครีม"
         >
-          ดูแผนที่ <span aria-hidden="true">↗</span>
-        </a>
+          <span className="theme-label">ธีมงาน:</span>
+          <div className="theme-swatches">
+            <span className="theme-swatch theme-swatch-sage" aria-hidden="true" />
+            <span className="theme-swatch theme-swatch-olive" aria-hidden="true" />
+            <span className="theme-swatch theme-swatch-beige" aria-hidden="true" />
+            <span className="theme-swatch theme-swatch-cream" aria-hidden="true" />
+          </div>
+        </div>
       </section>
 
       <footer>14 · 03 · 2027 <span>ทำด้วยความรัก</span></footer>

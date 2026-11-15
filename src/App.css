@@ -221,6 +221,16 @@
   margin: 0 0 8px;
 }
 
+.location-link {
+  color: inherit;
+  text-decoration-color: #b6a48b;
+  text-underline-offset: 4px;
+}
+
+.location-link:hover {
+  color: #71634f;
+}
+
 .event-item > p:last-child {
   color: #77766a;
   font-size: 0.8rem;
@@ -233,13 +243,43 @@
   width: 1px;
 }
 
-.text-link {
-  color: #71634f;
-  display: inline-block;
+.wedding-theme {
+  align-items: center;
+  color: #716f62;
+  display: flex;
   font-size: 0.8rem;
+  gap: 12px;
+  justify-content: center;
   margin-top: 24px;
-  text-decoration-color: #b6a48b;
-  text-underline-offset: 5px;
+}
+
+.theme-swatches {
+  display: flex;
+  gap: 8px;
+}
+
+.theme-swatch {
+  border: 1px solid rgb(54 55 45 / 12%);
+  border-radius: 50%;
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.theme-swatch-sage {
+  background: #a3aa91;
+}
+
+.theme-swatch-olive {
+  background: #737c5a;
+}
+
+.theme-swatch-beige {
+  background: #d7bea3;
+}
+
+.theme-swatch-cream {
+  background: #f4efe4;
 }
 
 footer {
